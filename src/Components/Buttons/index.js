@@ -8,8 +8,7 @@ class Buttons extends Component {
     return (
       <div className="Buttons">
         {this.props.children}
-        <Button onclick={this.calculateOperations()} value="7" label="7" />
-      </div>    
+      </div>
       );
   }
 }
