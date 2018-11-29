@@ -3,6 +3,7 @@ import './styles.css';
 import Display from '../Display';
 import Buttons from '../Buttons';
 import Button from '../Button';
+import ClearButton from '../ClearButton';
 class App extends Component {
   constructor(props) {
     super(props);
